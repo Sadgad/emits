@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Relief Application" max_length="40" name="x_74510_emits_relief_application" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Choice 1" max_length="40" name="u_choice_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Choice 2" max_length="40" name="u_choice_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Choice 3" max_length="40" name="u_choice_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Choice" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Date of birth" max_length="40" name="u_glide_date_3" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Family Name" max_length="40" name="u_string_2" type="string"/>
+    </element>
+</database>
